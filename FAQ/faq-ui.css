@@ -1,0 +1,101 @@
+/* FAQ UI (unique) */
+
+.gf-hero {
+    max-width: var(--gd-wrap);
+    margin: 0 auto;
+    padding: 18px 0 0;
+}
+
+.gf-kicker {
+    display: inline-flex;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.06);
+    font-weight: 900;
+    margin: 0 0 12px;
+}
+
+.gf-title {
+    margin: 0 0 10px;
+    font-size: clamp(1.85rem, 3vw, 2.6rem);
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.gf-lead {
+    margin: 0 0 14px;
+    color: var(--gd-muted);
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.gf-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.gf-grid {
+    max-width: var(--gd-wrap);
+    margin: 18px auto 0;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 980px) {
+    .gf-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.gf-card {
+    padding: 18px;
+    border-radius: var(--gd-radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.gf-q {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.gf-a {
+    margin: 0;
+    color: var(--gd-muted);
+    line-height: 1.8;
+}
+
+.gf-cta {
+    max-width: var(--gd-wrap);
+    margin: 18px auto 0;
+}
+
+.gf-cta__box {
+    padding: 18px;
+    border-radius: var(--gd-radius-xl);
+    border: 1px solid rgba(51, 214, 194, 0.18);
+    background: linear-gradient(135deg, rgba(51, 214, 194, 0.10), rgba(122, 166, 255, 0.08));
+}
+
+.gf-cta__title {
+    margin: 0 0 6px;
+    font-size: 1.55rem;
+    font-weight: 900;
+}
+
+.gf-cta__text {
+    margin: 0;
+    color: var(--gd-muted);
+    line-height: 1.75;
+}
+
+.gf-cta__actions {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
