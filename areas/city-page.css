@@ -1,0 +1,262 @@
+/* City landing pages (GrarDolly)
+   - Shared styling for /areas/<city>/ pages
+   - Unique class system: gl-*
+*/
+
+.gl-wrap {
+    max-width: var(--gd-wrap);
+    margin: 0 auto;
+}
+
+.gl-crumbs {
+    margin: 10px auto 0;
+    max-width: var(--gd-wrap);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: var(--gd-dim);
+    font-weight: 800;
+    font-size: 0.96rem;
+}
+
+.gl-crumbs a {
+    color: rgba(255, 255, 255, 0.88);
+    text-decoration: none !important;
+}
+
+.gl-crumbs a:hover {
+    text-decoration: underline !important;
+}
+
+.gl-sep {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.gl-hero {
+    max-width: var(--gd-wrap);
+    margin: 0 auto;
+    padding: 14px 0 0;
+    display: grid;
+    gap: 12px;
+}
+
+@media (min-width: 980px) {
+    .gl-hero {
+        grid-template-columns: 1.15fr 0.85fr;
+        align-items: start;
+        gap: 14px;
+    }
+}
+
+.gl-badge {
+    display: inline-flex;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.06);
+    font-weight: 900;
+    width: fit-content;
+    margin: 0 0 10px;
+}
+
+.gl-title {
+    margin: 0 0 10px;
+    font-size: clamp(1.85rem, 3vw, 2.65rem);
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.gl-lead {
+    margin: 0 0 12px;
+    color: var(--gd-muted);
+    line-height: 1.85;
+    font-size: 1.05rem;
+}
+
+.gl-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.gl-panel {
+    padding: 16px;
+    border-radius: var(--gd-radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+
+.gl-panel__title {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.gl-panel__text {
+    margin: 0 0 10px;
+    color: var(--gd-muted);
+    line-height: 1.75;
+}
+
+.gl-kv {
+    margin: 0;
+}
+
+.gl-kv__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 0;
+    border-top: 1px dashed rgba(255, 255, 255, 0.14);
+}
+
+.gl-kv__row:first-child {
+    border-top: none;
+}
+
+.gl-kv dt {
+    color: var(--gd-dim);
+    font-weight: 900;
+}
+
+.gl-kv dd {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.92);
+    font-weight: 800;
+}
+
+.gl-block {
+    max-width: var(--gd-wrap);
+    margin: 18px auto 0;
+    padding: 18px;
+    border-radius: var(--gd-radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.gl-head {
+    margin-bottom: 12px;
+}
+
+.gl-h2 {
+    margin: 0 0 8px;
+    font-size: clamp(1.35rem, 2.1vw, 1.85rem);
+    font-weight: 900;
+}
+
+.gl-sub {
+    margin: 0;
+    color: var(--gd-muted);
+    line-height: 1.75;
+}
+
+.gl-grid {
+    margin-top: 12px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 980px) {
+    .gl-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.gl-card {
+    padding: 16px;
+    border-radius: var(--gd-radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.gl-card__t {
+    margin: 0 0 8px;
+    font-weight: 900;
+}
+
+.gl-card__p {
+    margin: 0;
+    color: var(--gd-muted);
+    line-height: 1.75;
+}
+
+.gl-mini {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gl-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
+    font-weight: 900;
+    text-decoration: none !important;
+}
+
+.gl-chip:hover {
+    background: rgba(255, 255, 255, 0.09);
+}
+
+.gl-faq {
+    margin-top: 12px;
+    display: grid;
+    gap: 10px;
+}
+
+.gl-qa {
+    padding: 14px;
+    border-radius: var(--gd-radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.gl-q {
+    margin: 0 0 8px;
+    font-weight: 900;
+}
+
+.gl-a {
+    margin: 0;
+    color: var(--gd-muted);
+    line-height: 1.75;
+}
+
+.gl-cta {
+    max-width: var(--gd-wrap);
+    margin: 18px auto 0;
+}
+
+.gl-cta__box {
+    padding: 18px;
+    border-radius: var(--gd-radius-xl);
+    border: 1px solid rgba(51, 214, 194, 0.18);
+    background: linear-gradient(135deg, rgba(51, 214, 194, 0.10), rgba(122, 166, 255, 0.08));
+}
+
+.gl-cta__t {
+    margin: 0 0 6px;
+    font-size: 1.55rem;
+    font-weight: 900;
+}
+
+.gl-cta__p {
+    margin: 0;
+    color: var(--gd-muted);
+    line-height: 1.75;
+}
+
+.gl-cta__actions {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
