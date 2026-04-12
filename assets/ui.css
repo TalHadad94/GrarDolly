@@ -279,6 +279,15 @@ img {
     margin-right: 2px;
 }
 
+/* Drawer control visibility by device */
+.gd-iconBtn--collapse {
+    display: none;
+}
+
+.gd-iconBtn--close {
+    display: grid;
+}
+
 /* Layout */
 .gd-page {
     min-height: 100vh;
@@ -432,6 +441,14 @@ img {
 
     .gd-iconBtn--menu {
         display: none;
+    }
+
+    .gd-iconBtn--close {
+        display: none;
+    }
+
+    .gd-iconBtn--collapse {
+        display: grid;
     }
 
     .gd-drawerOverlay {
