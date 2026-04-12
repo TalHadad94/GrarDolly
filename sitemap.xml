@@ -27,6 +27,19 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://www.grardolly.co.il/legal/privacy-policy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.grardolly.co.il/legal/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
   <!-- City Pages -->
   <url>
     <loc>https://www.grardolly.co.il/areas/נס-ציונה/</loc>
