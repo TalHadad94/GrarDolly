@@ -30,7 +30,7 @@
   <!-- Blog -->
   <url>
     <loc>https://www.grardolly.co.il/blog/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -45,6 +45,13 @@
   <url>
     <loc>https://www.grardolly.co.il/blog/נגמרה-הסוללה-ברכב-חשמלי/</loc>
     <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.grardolly.co.il/blog/חילוץ-רכב-מחניון-תת-קרקעי/</loc>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
